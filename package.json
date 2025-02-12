@@ -1,13 +1,13 @@
 {
-  "name": "25-Ins_Mongoose-CRUD",
+  "name": "socialnetwork",
   "version": "1.0.1",
-  "description": "Instructor demo for CRUD operations in Mongoose on subdocuments",
-  "main": "index.js",
+  "description": "socialNetworkAPI",
+  "main": "server.js",
   "license": "MIT",
   "scripts": {
-    "start": "node index",
-    "dev": "nodemon index",
-    "seed": "node utils/seed"
+    "start": "node server",
+    "dev": "nodemon server"
+    
   },
   "dependencies": {
     "express": "^4.17.1",
